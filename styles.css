@@ -1,0 +1,23 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    animation: anime 4s steps(26) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid black;
+}
+
+.wrapper {
+    display: flex;
+    
+    align-items: center;
+    height: 100vh;
+}
+
+@keyframes anime {
+    from {
+        width: 0ch;
+    }
+    to {
+        width: 26ch;
+    }
+}
